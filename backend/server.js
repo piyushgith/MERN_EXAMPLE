@@ -2,8 +2,8 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-//const uri = "mongodb://localhost:27017/mydb";
-const uri="mongodb://user:piyush@172.17.0.3:27017/mydb?authSource=mydb&w=1"
+const uri = "mongodb://mongo:27017/mydb";
+//const uri="mongodb://user:piyush@172.17.0.3:27017/mydb?authSource=mydb&w=1"
 
 require('dotenv').config();
 

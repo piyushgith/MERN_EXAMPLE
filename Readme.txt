@@ -1,3 +1,7 @@
+sudo docker-compose up -d
+
+Either Use docker compose file or below way
+
 1. Create Mongo db container
     sudo docker container run --name mymongodb --publish 27017:27017 -d mongo
 
